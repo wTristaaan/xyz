@@ -1,0 +1,9 @@
+Bounce animation : https://animate.style/
+Loading animation : https://loading.io/css/
+script jquery : https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+queue player css : https://codepen.io/kylelavery88/pen/vmqXrm
+MP3Fil class : http://www.zedwood.com/article/php-calculate-duration-of-mp3
+Quicksand font : https://www.dafont.com/fr/quicksand.font
+icon : https://www.flaticon.com/premium-icon/musical-note_2995101?term=music&page=1&position=5&page=1&position=5&related_id=2995101&origin=search
+icon generator : https://realfavicongenerator.net/
+

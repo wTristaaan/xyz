@@ -1,0 +1,277 @@
+@charset "UTF-8";/*!
+ * font found on https://www.dafont.com/fr/quicksand.font
+ */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url("font/Quicksand.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+body{
+    background-color: #0A1A24;
+}
+
+.dFrame{
+    margin: 1%;
+    padding: 1%;
+}
+
+.center{
+    text-align: center;
+}
+
+.searchLabel{
+    width: 100px;
+    display: inline-block;
+    color: white;
+}
+
+.marginB{
+    margin-bottom: 1%;
+}
+
+.none{
+    display: none!important;
+}
+
+.sectionTrack{
+    margin-top: 2%;
+}
+
+/* .musicTitle{
+    margin-bottom: 10px;
+} */
+
+.imgSizeCover{
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    margin-right: 1%;
+    border: solid 5px white;
+}
+
+.play{
+    background-color: #FAA700;
+    color: white;
+    text-transform: uppercase;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 5px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.play:hover {
+    transition-duration: 0.1s;
+    background-color: #3A3A3A;
+  }
+
+#searchBtn{
+    background-color: #FAA700;
+    color: white;
+    text-transform: uppercase;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.play:hover{
+    cursor: pointer;
+}
+
+.like{
+    color:white;
+}
+
+.like i {
+    top: 5px;
+    position: relative;
+    padding: 6px;
+    border: solid 1px white;
+}
+
+.like:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.unlike{
+    color:white;
+}
+
+.unlike i {
+    top: 5px;
+    position: relative;
+    padding: 6px;
+    border: solid 1px white;
+}
+
+.unlike:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.red{
+    color: red;
+}
+
+.flex{
+    display: flex;
+}
+
+.like:nth-child(2){
+    margin-right: 5px ;
+}
+
+.textInfo{
+    color:white;
+    width: 100%;
+}
+.artistAccount{
+    margin-bottom: 3px;
+}
+.artistAccount img{
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    max-width: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.artistAccount h4{
+    top: 2px;
+    position: relative;
+}
+
+.musicInfo{
+    font-size: 10px;
+    margin-bottom:5px
+}
+
+.musicInfo span:nth-child(1){
+    margin-right: 1%;
+}
+
+.musicDescription{
+    font-size: small;
+}
+
+.trackInfo{
+    margin-bottom: 2%;
+}
+
+.albumTracklist{
+    background-color: #23313A;
+    color: white;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+ol{
+    list-style-type: none;
+    padding: 20px 36px;
+    font-weight: 500;
+}
+
+ol li {
+    counter-increment: number;
+    display: flex;
+    flex-wrap: initial;
+    justify-content: space-between;
+    align-items: center;
+    align-content: initial;
+    height: 45px;
+}
+
+ol li span:first-child {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+ol li span:first-child:before {
+    content: counter(number);
+    margin-right: 2em;
+    display: inline-block;
+    text-align: end;
+    width: 20px;
+}
+.message{
+    color:white;
+    margin-top:5px;
+}
+.queue{
+    color:white;
+    margin-top:5px;
+}
+.white{
+    color:white;
+}
+
+.musicQueue{
+    cursor: pointer;
+}
+
+#searchQueueBtn{
+    background-color: #FAA700;
+    color: white;
+    text-transform: uppercase;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.queueBtnPrevious{
+    background-color: #FAA700;
+    color: white;
+    text-transform: uppercase;
+    width: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.queueBtnNext{
+    background-color: #FAA700;
+    color: white;
+    text-transform: uppercase;
+    width: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+#error{
+    color: red;
+    font-size: 25px;
+}

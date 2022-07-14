@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    .sectionTrack{
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .play{
+        background-color: #FAA700;
+        color: white;
+        text-transform: uppercase;
+        width: 100%;
+        padding: unset;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+    .flex:nth-child(1){
+        display: block;
+    }
+    .artistAccount{
+        margin-bottom: 2%;
+    }
+    #searchBtn{
+        width: 60%!important;
+    }
+    .musicDescription p{
+        font-size: smaller;
+    }
+  }
+
+@media only screen and (max-width: 300px) {
+    .audio{
+        width: 75%;
+    }
+}
